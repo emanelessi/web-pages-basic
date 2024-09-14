@@ -131,6 +131,30 @@ h1 {
     justify-content: space-between;
     width: 50px;
 }
+.result-description {
+    padding: 15px;
+}
+
+
+.reaction {
+    background-color: #fae1e4;
+    color: #ed858a;
+}
+
+.memory {
+    background-color: #ffefdc;
+    color: #d57950;
+}
+
+.verbal {
+    background-color: #c7ece8;
+    color: #1aa88d;
+}
+
+.visual {
+    background-color: #e1e1fc;
+    color: #445ae0;
+}
 
 .total {
     color: var(--gray-text-color);
@@ -156,6 +180,31 @@ h1 {
     background-color: #2b3951;
 }
 
+
+@media (max-width: 759px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .result, .summary {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .scour {
+        height: 120px;
+        width: 120px;
+    }
+
+    .but {
+        height: 45px;
+    }
+}
 
 
 
