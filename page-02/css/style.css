@@ -9,9 +9,9 @@
     --foreground-color: #fafafa;
     --text-color: #958FFF;
     --gray-text-color: #aaaaaa;
-    --scandery-text-color: #000000;
+    --secondary-text-color: #000000;
     --primary-card-color: #7B62FE;
-    --scandery-card-color: #434BEE;
+    --secondary-card-color: #434BEE;
     --button-color: #3E4D6C;
 }
 
@@ -42,7 +42,7 @@ h1 {
 }
 
 .result {
-    background: linear-gradient(to bottom, var(--primary-card-color), var(--scandery-card-color));
+    background: linear-gradient(to bottom, var(--primary-card-color), var(--secondary-card-color));
     width: 50%;
     color: var(--foreground-color);
     border-radius: 20px;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .scour {
-    background: linear-gradient(to top, var(--primary-card-color), var(--scandery-card-color));
+    background: linear-gradient(to top, var(--primary-card-color), var(--secondary-card-color));
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -88,7 +88,7 @@ h1 {
 
 .summary {
     width: 50%;
-    color: var(--scandery-text-color);
+    color: var(--secondary-text-color);
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -161,7 +161,7 @@ h1 {
     font-weight: bold;
 }
 .degree {
-    color: var(--scandery-text-color);
+    color: var(--secondary-text-color);
     font-weight: bold;
 }
 .but {
